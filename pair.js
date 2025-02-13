@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*whaite queen [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n* https://wa.me/94783314361*\n\n*You can join my whatsapp channel*\n\n*https://whatsapp.com/channel/0029Vb0rCUr72WU3uq0yMg42*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = `*whaite queen [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*අවශ්‍ය වුවහොත් මා සම්බන්ධ කර ගන්න 🥰*\n\n* https://wa.me/94783314361*\n\n*You can join my whatsapp channel*\n\n*https://whatsapp.com/channel/0029Vb0rCUr72WU3uq0yMg42*`;
+            const mg = `🛑 *Do not share this code to anyone* /n ☣️☣️☣️☣️☣️🇱🇰🇱🇰☣️☣️🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://i.ibb.co/DHkSqrJy/Golden-Queen-MD-VIMAMODS-12bf817b6d079da4.jpg",
+                url: "https://raw.githubusercontent.com/ransikachamindus/Even-/refs/heads/main/Leonardo_Phoenix_10_A_regal_icy_queen_stands_atop_a_frozen_thr_3 (1) (1).jpg",
               },
               caption: sid,
             });
